@@ -1,0 +1,31 @@
+#mainDiv{
+    width: 100px;
+    background-color: black;
+    height: 100px;
+    color: rgb(25, 21, 21);
+    animation-name: aneim1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes aneim1 {
+    
+
+    from{
+        background-color: red;
+        widt: 0;
+        heig: 0;
+        font-size: 0;
+    }
+
+
+
+    to{
+        background-color: yellow;
+        wdth: 200px;
+        heigh: 200px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+}
