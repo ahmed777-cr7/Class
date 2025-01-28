@@ -1,4 +1,11 @@
-i{
-    font-size: 100px;
-    
+@font-face {
+    font-family: RealMadred;
+    src: url(diwan.ttf);
+}
+h1{
+    font-family: "Amiri", serif;
+}
+p{
+    font-family: RealMadred;
+    font-size: 40px;
 }
