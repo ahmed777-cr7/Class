@@ -1,10 +1,12 @@
-#mianDiv{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.244) ;
+body{
+    display: flex;
+    background-color: rgb(0, 125, 125);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
 h1{
-    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0) , 2px 7px 10px rgba(5, 5, 128, 0.733);
-}
-img{
-    width: 250px;
-    filter: drop-shadow(0px 0px 15px rgba(5, 0, 45, 0.783));
+    background-color: aqua;
+
 }
